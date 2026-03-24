@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    /* 👈 aqui está a fonte */
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.carta {
+    position: fixed;
+    width: 800px;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+.esquerda {
+    top: 200px;
+    left: 20px;
+    transform: rotate(-15deg);
+}
+
+.direita {
+    top: 200px;
+    right: 20px;
+    transform: rotate(15deg);
+}
+
+
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    color: #00d4ff;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1f1f1f;
+    margin-top: 40px;
+    font-size: 14px;
+}
